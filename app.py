@@ -7,7 +7,7 @@ import joblib
 model = joblib.load('linear_regression_model.pkl') 
 
 # 2. 모델 설명
- st.title('청소년 알코올 소비량 예측')
+st.title('청소년 알코올 소비량 예측')
 col1, col2 = st.columns( 2 )      
 with col1:
       st.subheader('모델 설명 ')
