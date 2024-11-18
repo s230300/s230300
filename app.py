@@ -26,11 +26,11 @@ with col2:
 st.subheader('모델 활용')
 st.write('**** 다음을 입력하세요.. 인공지능이 당신의 알코올 소비량을 알려드립니다! ')
 
-a = st.number_input(' 나이 입력 ', value=0)      #초기값은 0
+a = st.number_input(' 나이 입력 ', value=1)      
 
                                                           
 
-if st.button('알코올 소비량 예측'):            # 사용자가 '점수예측' 버튼을 누르면
-        input_data = [[a]]     # 사용자가 입력한 a,b,c 를 input_data에 저장하고
-        p = model.predict(input_data)         # model이 예측한 값을 p에 저장한다
+if st.button('알코올 소비량 예측'):           
+        input_data = [[a]]     
+        p = model.predict(input_data)         
         st.write('인공지능의 예측 알코올 소비량은', p)
