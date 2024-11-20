@@ -34,7 +34,7 @@ a = st.number_input(' 나이 입력 ', value=1)
 b = st.selctbox('성별 입력(남성:0, 여성:1', [0,1])
 if b == 'M': 
             b=0
-else b =='F':
+else b == 'F':
             b=1
 
                                                           
