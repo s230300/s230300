@@ -31,7 +31,7 @@ st.subheader('모델 활용')
 st.write('**** 다음을 입력하세요.. 인공지능이 당신의 알코올 소비량을 알려드립니다! ')
 
 a = st.number_input(' 나이 입력 ', value=1) 
-b = st.selctbox('성별 입력(남성:M, 여성:F)', [0,1])
+b = st.selctbox('성별 입력(남성:M 여성:F)', [0,1])
 #if b == 'M': 
 #            b=0
 #else: 
