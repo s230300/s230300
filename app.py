@@ -23,7 +23,7 @@ with col2:
       st.image('다운로드.png' )
 with col3:
       st.subheader('데이터시각화2')
-      st.image('_____1_.png')
+      st.image('______1_.png')
       
 
 # 4. 모델 활용
