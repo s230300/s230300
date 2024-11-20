@@ -40,6 +40,6 @@ a = st.number_input(' 나이 입력 ', value=1)
                                                           
 
 if st.button('알코올 소비량 예측'):           
-        input_data = [[a,0]]     
+        input_data = [[a,'1']]     
         p = model.predict(input_data)         
         st.write('인공지능의 예측 알코올 소비량은', p)
