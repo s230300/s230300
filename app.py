@@ -8,7 +8,7 @@ model = joblib.load('linear_regression_model.pkl')
 
 # 2. 모델 설명
 st.title('청소년 알코올 소비량 예측')
-col1, col2 = st.columns( 2 )      
+col1, col2, col3 = st.columns( 3 )      
 with col1:
       st.subheader('모델 설명 ')
       st.write(' - 기계학습 알고리즘 : 선형 회귀 ')
@@ -21,6 +21,8 @@ with col1:
 with col2:
       st.subheader('데이터시각화1')
       st.image('다운로드.png' )
+with col3:
+      
 
 # 4. 모델 활용
 st.subheader('모델 활용')
