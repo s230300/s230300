@@ -15,7 +15,8 @@ with col1:
       st.write(' - 학습 데이터 출처 : https://www.kaggle.com/')
       st.write(' - 훈련    데이터 : 278건')
       st.write(' - 테스트 데이터 : 118건')
-      st.write(' - 모델 정확도 : 0.028349301794619475')
+      st.write(' - 모델 정확도 : 0.0788022909858509
+')
 
 # 3. 데이터시각화
 with col2:
