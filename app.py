@@ -43,4 +43,4 @@ if st.button('알코올 소비량 예측'):
         input_data = [[a,b]]     
         p = model.predict(input_data)         
         st.write('인공지능의 예측 알코올 소비량은', p)
-st.subheader('*사용 목적 용도 외에는 사용하지 않는다*')
+st.subheader('※사용 목적 용도 외에는 사용하지 않는다')
